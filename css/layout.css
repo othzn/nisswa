@@ -59,8 +59,8 @@ header {
     border-right-width: 0px;
     border-right-style: solid;
     padding-right: 0px;
-    margin-left: 100px;
-    margin-top: -120px;
+     margin-left: 40px; 
+    margin-top: 20px;
 
 }
 #titlearab{
@@ -74,8 +74,12 @@ header {
     margin-left: -100px;
     width: 200px;
 }
+ #logoh a{
+
+    max-height: 1px;
+}
 header #logo {	
-	width: 120px;	
+	width: 100px;	
 	margin-left: -60px;
 	text-align: center;
 	
@@ -123,7 +127,7 @@ header #logo {
    z-index: 9999;
 
    position: absolute;
-   top: 12px;
+   top: 40px;
    right: 30px;    
 }
 
@@ -244,33 +248,8 @@ ul#nav li.current a { color: #1E732D; }
 	text-shadow: 0px 1px 2px rgba(0, 0, 0, .2);	
 }
 
-/* counter */
-#main #counter {
-	width: 75%;
-	color: #fff;
-	text-align: center;
-	margin: 18px auto 0;
-}
-#main #counter span {
-	font: 70px/1em 'merriweather-bold', serif;
-	display: block;
-	padding: 12px 0 30px;
-	min-width: 25%;
-	float: left;	
-	text-shadow: 0px 1px 3px rgba(0, 0, 0, .5);	
-	border-left: 1px dotted rgba(255, 255, 255, .2);	
-}
-#main #counter span:first-child { border-left: none; }
-#main #counter span em {
-	font: 11px/18px 'montserrat-regular', sans-serif;
-	text-transform: uppercase;
-	letter-spacing: 1.5px;
-	margin-top: 12px;	
-	display: block;
-	color: #BCBCBC;
-	color: rgba(255, 255, 255,.6);
-	text-shadow: 0px 1px 2px rgba(0, 0, 0, .7);	
-}
+
+
 
 /* mailchimp form */
 #main #mc_embed_signup {
@@ -316,24 +295,7 @@ ul#nav li.current a { color: #1E732D; }
 	background: #146320;
 }
 
-/* social links
-#main .social {
-	clear: both;
-	font-size: 22px;
-   margin: 12px 0 24px;
-   padding: 0;   
-   text-shadow: 0px 1px 2px rgba(0, 0, 0, .8);
-}
-#main .social li {
-   display: inline-block;
-   margin: 0 12px;
-   padding: 0;
-}
-#main .social li a { color: #fff; }
-#main .social li a:hover { color: #197C28; }
 
-
- */
 /* ------------------------------------------------------------------ */
 /* c. About Section
 /* ------------------------------------------------------------------ */
@@ -353,46 +315,7 @@ ul#nav li.current a { color: #1E732D; }
  .social li a { color: #fff; }
  .social li a:hover { color: #197C28; }
 /*----------------------------------------------*-
-#about {
-	background: #1E732D;
-	color: #fff; 
-   padding-top: 96px;
-   padding-bottom: 72px;     
-   overflow: hidden; 
-}
-#about a, #about a:visited  { color: #0C3012; }
-#about a:hover, #about a:focus { color: #fff; }
 
-.section-header,
-.section-content {
-	max-width: 880px;
-}
-#about .section-header {
-	text-align: center;	
-	margin-bottom: 12px;
-}
-#about .section-header .icon-wrap { 	
-	font-size: 60px;
-	margin-bottom: 18px;
-	color: #0F3C17; 
-}
-#about .section-header h1 {
-   font: 30px/36px 'montserrat-bold', sans-serif;
-   color: #fff;
-   margin-bottom: 12px;
-   padding: 0 15%;
-}
-#about .section-header p { 
-	color: #fff; 
-	padding: 0 3%;
-}
-#about h3 {
-   font: 15px/24px 'montserrat-bold', sans-serif;
-   color: #0C3012;
-   text-transform: uppercase;
-   letter-spacing: 3px;   
-   margin-bottom: 12px;
-}
 
 /* Call To Action 
 ------------------------------------------------------------------ */

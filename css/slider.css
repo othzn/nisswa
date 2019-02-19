@@ -83,14 +83,3 @@
      
     }
 }
-@media only screen and (min-width: 1200px) {
-  .slideshow-container {
-    max-height: 550px;
-  }
-  .slideshow-container img {
-    
-    max-height: 550px;
-  
-   
-  }
-}
