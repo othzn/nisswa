@@ -18,7 +18,11 @@
 /* a. General Stylesee
 /* ------------------------------------------------------------------ */
 
-body { background: #0f0f0f; }
+body {
+     background: #0f0f0f; 
+     background: url("../images/bg-pattern.png"), linear-gradient(to left, #444441, rgb(41, 39, 35));
+    }
+
 
 
 /* ------------------------------------------------------------------ */
@@ -37,10 +41,12 @@ body { background: #0f0f0f; }
     
   background: url("../images/bg-pattern.png"), #7b4397;
   background: url("../images/bg-pattern.png"), -webkit-gradient(linear, right top, left top, from(#7b4397), to(#dc2430));
-  background: url("../images/bg-pattern.png"), linear-gradient(to left, #ececb8, #F6F4EF);
+  background: url("../images/bg-pattern.png"), linear-gradient(to left, #444441, rgb(41, 39, 35));
 
 }
-
+#styles{
+    background: url("../images/bg-pattern.png"), linear-gradient(to left, #dfdfd8, rgb(226, 225, 221));
+}
 /* Header 
 /* ------------------------------------------------------------------ */
 header {   

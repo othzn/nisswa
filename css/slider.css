@@ -2,7 +2,7 @@
 .slideshow-container {
   max-height: 400px;
   
-  width: 100%;
+  width: 80%;
   position: relative;
   margin: auto;
 }
@@ -24,7 +24,7 @@
 /* Caption text */
 .text {
   color: #f2f2f2;
-  font-size: 52px;
+  font-size: 42px;
   padding: 12px 12px;
   position: absolute;
   bottom: 0px;
