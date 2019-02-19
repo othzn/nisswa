@@ -27,18 +27,18 @@ body { background: #0f0f0f; }
 
 #intro {
    position: relative;
-   padding-bottom: 50px;   
-   min-height: 500px;
+   /* padding-bottom: 50px;    */
+   min-height: 400px;
    width: 100%;
-  
+  /* 
    background: #161415 url(../images/header-background.jpg) no-repeat center center;
    background-size: cover !important;
-    -webkit-background-size: cover !important;   
-    /*
+    -webkit-background-size: cover !important;    */
+    
   background: url("../images/bg-pattern.png"), #7b4397;
   background: url("../images/bg-pattern.png"), -webkit-gradient(linear, right top, left top, from(#7b4397), to(#dc2430));
-  background: url("../images/bg-pattern.png"), linear-gradient(to left, #ffff40, #F6F4EF);
-    */
+  background: url("../images/bg-pattern.png"), linear-gradient(to left, #ececb8, #F6F4EF);
+
 }
 
 /* Header 

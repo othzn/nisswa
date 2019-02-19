@@ -74,7 +74,7 @@
 
 	/* intro styles
 	------------------------------------------------------------------ */
-	#intro {	min-height: 692px; }
+	#intro {	min-height: 400px; }
 	#titlesz{
 		margin-left: 0px;
 		margin-top: auto;
@@ -132,7 +132,7 @@
 
 	/* intro styles
 	------------------------------------------------------------------ */
-	#intro {	min-height: 528px; }
+	#intro {	min-height: 400px; }
 	header #logo {	
 		
 	position: absolute;
@@ -283,7 +283,7 @@
 
 /* screenwidth less than 460px
   -------------------------------------------------------------------------- */
-@media only screen and (max-width: 460px) {
+@media only screen and (max-width: 400px) {
 
 	/* intro styles
 	------------------------------------------------------------------ */
@@ -380,7 +380,7 @@
 	}
 	
 	
-	#intro {	min-height: 444px; }
+	#intro {	min-height: 300px; }
 
 	/* main
    ------------------------------------------------------------- */
