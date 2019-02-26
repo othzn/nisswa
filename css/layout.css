@@ -44,9 +44,7 @@ body {
   background: url("../images/bg-pattern.png"), linear-gradient(to left, #444441, rgb(41, 39, 35));
 
 }
-#styles{
-    background: url("../images/bg-pattern.png"), linear-gradient(to left, #dfdfd8, rgb(226, 225, 221));
-}
+
 /* Header 
 /* ------------------------------------------------------------------ */
 header {   
@@ -65,7 +63,7 @@ header {
     border-right-width: 0px;
     border-right-style: solid;
     padding-right: 0px;
-     margin-left: 40px; 
+     margin-left: 10px; 
     margin-top: 20px;
 
 }
@@ -76,13 +74,14 @@ header {
     font-family: 'rawy';
 }
 .header1 #logoh{
-    padding-top: 15px;
+    padding-top: 5px;
     margin-left: -100px;
     width: 200px;
+    height: 110px;
 }
- #logoh a{
+ #logoh img{
 
-    max-height: 1px;
+    max-height: 110px;
 }
 header #logo {	
 	width: 100px;	
@@ -133,7 +132,7 @@ header #logo {
    z-index: 9999;
 
    position: absolute;
-   top: 40px;
+   top: 25px;
    right: 30px;    
 }
 
@@ -178,7 +177,7 @@ header #logo {
    border-radius: 3px;
             
    position: relative;
-   top: 54px;
+   top: 34px;
    right: 30px;           
 }
    
@@ -223,7 +222,20 @@ ul#nav li a:hover { color: #1E732D; }
 ul#nav li a:active { background-color: transparent !important; }
 ul#nav li.current a { color: #1E732D; }
 
+/* styles div*/
+#styles{
+    background: url("../images/bg-pattern.png"), linear-gradient(to left, #dfdfd8, rgb(226, 225, 221));
+}
+#styles p{
+  color: #3D3939;
+}
+#styles img{
 
+  border-radius: 50%;
+  width: 130px;
+  height: 130px;
+
+}
 /* Main 
 ------------------------------------------------------------------ */
 #main {
