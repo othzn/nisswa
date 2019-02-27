@@ -13,7 +13,7 @@
 
 	/* Intro Styles
 	------------------------------------------------------------------ */
-	#intro {	min-height: 628px; }
+	#intro {	min-height: 400px; }
 
 	/* Header 
 	------------------------------------------------------------------ */
@@ -45,6 +45,17 @@
 		margin-left: -10px;
 		
 	}
+	#cfdiv {
+		left: 150px;
+		top: -0;
+		width: 400px;
+	}
+	#cfdiv2 {
+		top: 0px;
+		width: 400px;
+		left: -150px;
+	}
+	
    /* main
    ------------------------------------------------------------------ */
    #main { margin-top: 90px; }
@@ -65,6 +76,10 @@
 	#main #mc_embed_signup { margin-bottom: 6px; }
 	#map{
 		width: 100%;
+		left: 0;
+	}
+	#styles{
+		padding-top: 75px;
 	}
 }
 
@@ -88,6 +103,9 @@
    /* main
    
    ------------------------------------------------------------------ */
+   #styles{
+		padding-top: 175px;
+	}
    #main h1 { 
   		font: 35px/1.2em 'montserrat-bold', sans-serif; 
   		padding: 0 8%;
@@ -123,6 +141,20 @@
 	------------------------------------------------------------------ */   
 	#location .contacts .row .columns { width: 50%; }
 	#location .contacts .row .end { clear: both; }	
+	#cfdiv {
+		left: 100px;
+		top: -0;
+		width: 300px;
+	}
+	#cfdiv2 {
+		top: 0px;
+		width: 300px;
+		left: -100px;
+		left: 0px;
+    	padding-left: 5px;
+	}
+	
+
 
 }
 
@@ -132,6 +164,15 @@
 
 	/* intro styles
 	------------------------------------------------------------------ */
+	#cfdiv{
+ 
+		left: 0;
+		top:-0;
+		
+	} 
+	#styles{
+		padding-top: 175px;
+	}
 	#intro {	min-height: 400px; }
 	header #logo {	
 		
@@ -236,6 +277,7 @@
 
 	#map{
 		width: 100%;
+		left: 0;
 	}
 	/* about section
    -------------------------------------------------------------------- */
@@ -284,7 +326,9 @@
 /* screenwidth less than 460px
   -------------------------------------------------------------------------- */
 @media only screen and (max-width: 400px) {
-
+	#styles{
+		padding-top: 175px;
+	}
 	/* intro styles
 	------------------------------------------------------------------ */
 	#intro {	min-height: 580px; }
@@ -356,13 +400,27 @@
 	#go-top { right: 15px; } 
 	#map{
 		width: 100%;
+		left: 0%;
 	}
-
+	#cfdiv{
+ 
+		left: 0;
+		top:-0;
+		
+	} 
+	#cfdiv2{
+		left:0px;
+		top: 0px;
+	}
 }
 
 /* screenwidth less than 400px
   -------------------------------------------------------------------------- */
 @media only screen and (max-width: 400px) {
+	#styles{
+		padding-top: 175px;
+		
+	}
 	.header1 #logoh{
 		margin-left: -10px;
 		
@@ -407,8 +465,18 @@
    #main .social li { margin: 0 6px; }
    #map{
 	   width: 100%;
+	   left: 0;
    }
-
+   #cfdiv{
+	
+		left: 0;
+		top:-0;
+		
+	} 
+	#cfdiv2{
+		left:0px;
+		top: 0px;
+	}
 }
 
 

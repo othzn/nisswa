@@ -225,6 +225,8 @@ ul#nav li.current a { color: #1E732D; }
 /* styles div*/
 #styles{
     background: url("../images/bg-pattern.png"), linear-gradient(to left, #dfdfd8, rgb(226, 225, 221));
+    padding-top: 75px;
+
 }
 #styles p{
   color: #3D3939;
@@ -381,7 +383,9 @@ ul#nav li.current a { color: #1E732D; }
 /* ------------------------------------------------------------------ */
 /* d. Location Section
 /* ------------------------------------------------------------------ */
-
+/* #location{
+    max-height: 700px;
+} */
 #location .contacts {
 	background: #1F1F1F;   
 	padding-top: 15px;
@@ -410,9 +414,11 @@ ul#nav li.current a { color: #1E732D; }
 
 /* map */
 #map {
+    position: relative;
    display: block;
 	height: 400px;
    width: 50%;
+  
 
    background-color: #F6F4EF;
 }
@@ -429,42 +435,45 @@ ul#nav li.current a { color: #1E732D; }
 }
 /*---------------------------------
 -----------------------------------*/
-#cf{
+ #cfrow{
+    margin-left: 0;
+    margin-right: 0;
     width: 100%;
-     background: #efefef;
+    max-width: 100%;
 }
+#cfdiv{
+    width: 300px;
+    padding-right: 0px;
+    padding-left: 75px;
+    
+    /*top:-00px;
+     */
+} 
+#cfdiv2{
+    width: 300px;
+    padding-right: 0px;
+    padding-left: 0px;
+    /* left:100px;
+    top: -275px; */
+} 
 textarea {
     resize: none;
-    width: 333px;
+    width: 280px;
     height: 100%;
   }
-.emailus{
-    background: #efefef;
-    display: inline;
-    height: 400px;
-    width: 100%;
-    margin-bottom: 25px
-    
-}
-.emailus form{
-    background: #efefef;
-    display: inline;
-    position: relative;
-    height: 100%;
-    width: 100%;
-    padding-bottom: 50px;
-}
-.emailus label{
+
+
+.lb label{
     color: floralwhite;
     margin-bottom: 5px;
 }
-.emailus input{
+#cfdiv input{
     margin-bottom: 15px;
     background: #F6F4EF;
     padding-bottom: 10px;
     padding-top: 10px;
 }
-.emailus input[type="submit"] {
+#cfdiv input[type="submit"] {
 	font-size: 15px;
 	line-height: 30px;
 	height: 54px;
@@ -476,7 +485,7 @@ textarea {
     width: 50%;	
     
 }
-.emailus input[type="submit"]:hover {
+#cfdiv input[type="submit"]:hover {
 	background: #146320;
 }
 
@@ -484,7 +493,8 @@ textarea {
 -----------------------------------*/
 /* ------------------------------------------------------------------ */
 /* e. Footer
-/* ------------------------------------------------------------------ */
+*/
+
 
 footer {
 	font: 14px/24px 'montserrat-regular', sans-serif;
@@ -492,6 +502,7 @@ footer {
     margin-top: 30px;
    padding-top: 24px;
    padding-bottom: 24px;
+   max-height: 120px;
    color: #303030;      
 }
 footer a, footer a:visited { color: #525252; }
